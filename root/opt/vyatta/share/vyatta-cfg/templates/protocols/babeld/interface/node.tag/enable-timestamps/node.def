@@ -1,0 +1,2 @@
+type: bool
+help: Enable sending timestamps with each Hello and IHU message in order to compute RTT values. The default is true for tunnel interfaces, and false otherwise

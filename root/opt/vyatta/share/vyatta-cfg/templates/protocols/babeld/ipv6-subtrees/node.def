@@ -1,0 +1,2 @@
+type: bool
+help: This specifies whether to use native source-specific IPv6 forwarding rather than multiple routing tables. The default is chosen automatically depending on the kernel version.

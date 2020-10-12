@@ -1,0 +1,2 @@
+type: txt
+help: This defines the interval between hello packets sent on this interface.

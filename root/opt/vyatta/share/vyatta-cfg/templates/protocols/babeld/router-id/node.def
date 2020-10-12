@@ -1,0 +1,2 @@
+type: txt
+help: Specify the router-id explicitly, as a modified EUI-64 or a MAC-48 address. If two nodes have the same router-id, bad things will happen. Don't use this option unless you know what you are doing.

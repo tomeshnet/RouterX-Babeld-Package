@@ -1,0 +1,2 @@
+type: txt
+help: This allows duplicating external routes when their kernel priority is at least priority. Do not use this option unless you know what you are doing, as it can cause persistent route flapping.

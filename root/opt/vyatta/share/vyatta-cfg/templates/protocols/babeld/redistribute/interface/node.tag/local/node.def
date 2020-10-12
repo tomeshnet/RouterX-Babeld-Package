@@ -1,0 +1,2 @@
+type: bool
+help: Redistribute only local ips on this interface

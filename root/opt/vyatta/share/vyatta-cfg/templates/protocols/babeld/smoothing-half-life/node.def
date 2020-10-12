@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the half-life in seconds of the exponential decay used for smoothing metrics for performing route selection, and is equivalent to the command-line option -M.

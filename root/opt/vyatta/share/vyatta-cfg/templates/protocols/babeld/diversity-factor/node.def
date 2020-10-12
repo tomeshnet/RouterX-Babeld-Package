@@ -1,0 +1,2 @@
+type: txt
+help: This specifies by how much the cost of non-interfering routes should be multiplied, in units of 1/256. The default is 128 (division by 2).

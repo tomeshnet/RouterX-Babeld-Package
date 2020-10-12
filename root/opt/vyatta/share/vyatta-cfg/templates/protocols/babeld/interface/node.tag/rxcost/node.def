@@ -1,0 +1,2 @@
+type: txt
+help: This defines the cost of receiving frames on the given interface under ideal conditions (no packet loss); how this relates to the actual cost used for computing metrics of routes going through this interface depends on whether link quality estimation is being done. The default is 256 if the interface is wireless, and 96 otherwise.

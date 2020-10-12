@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the maximum cost added to a neighbour because of RTT, i.e. when the RTT is higher or equal than rtt-max. The default is 96 if the interface is of type tunnel, and 0 otherwise.

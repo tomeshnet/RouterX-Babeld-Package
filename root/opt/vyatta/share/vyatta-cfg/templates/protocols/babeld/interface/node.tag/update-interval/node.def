@@ -1,0 +1,2 @@
+type: txt
+help: This defines the interval between full routing table dumps sent on this interface; since Babel uses triggered updates and doesn't count to infinity, this can be set to a fairly large value, unless significant packet loss is expected. The default is four times the hello interval

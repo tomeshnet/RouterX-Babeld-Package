@@ -1,0 +1,2 @@
+type: txt
+help: Action specifies the action to be taken when this entry matches. It can have one of the following values: allow, deny, metric [value], src-prefix [prefix], table [table], pref-src [ip]

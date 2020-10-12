@@ -1,0 +1,4 @@
+priority: 620
+help: Babeld routing protocol
+begin: /opt/vyatta/sbin/babeld-config.pl 2>&1 >>/tmp/out
+end: echo OVER `date` >> /tmp/out

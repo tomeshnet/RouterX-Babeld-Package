@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the maximum RTT, in milliseconds, above which we don't increase the cost to a neighbour. The default is 120 ms.

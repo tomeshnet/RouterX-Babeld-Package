@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the debugging level, and is equivalent to the command-line option -d.

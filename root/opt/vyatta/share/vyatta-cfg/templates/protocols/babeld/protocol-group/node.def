@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the link-local multicast address to be used by the protocol, and is equivalent to the command-line option -m.

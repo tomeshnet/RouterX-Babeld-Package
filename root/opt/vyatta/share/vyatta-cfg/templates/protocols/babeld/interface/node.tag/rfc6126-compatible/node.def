@@ -1,0 +1,2 @@
+type: bool
+help: Disable some features that are incompatible with RFC 6126 (the older version of the Babel protocol), such as source-specific routing and RTT estimation over unicast. The default is false.

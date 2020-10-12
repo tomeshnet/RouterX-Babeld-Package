@@ -1,0 +1,2 @@
+type: txt
+help: This entry only applies to routes with a source prefix length equal to plen

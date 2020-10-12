@@ -1,0 +1,2 @@
+type: bool
+help: This entry only applies to local addresses.

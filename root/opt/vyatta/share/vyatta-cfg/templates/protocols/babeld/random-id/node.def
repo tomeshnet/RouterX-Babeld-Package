@@ -1,0 +1,2 @@
+type: bool
+help: This specifies whether to use a random router-id, and is equivalent to the command-line option -r.

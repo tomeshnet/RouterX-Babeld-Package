@@ -1,0 +1,2 @@
+type: txt
+help: This specifies whether link quality estimation should be performed on this interface. The default is to perform link quality estimation on wireless interfaces only. true|false|auto

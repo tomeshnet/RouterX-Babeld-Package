@@ -1,0 +1,2 @@
+type: txt
+help: This specifies a kernel routing table from which routes are redistributed by babeld, and can be specified multiple times with a cumulative effect. This is equivalent to the command-line option -T.

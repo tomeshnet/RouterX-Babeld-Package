@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the kernel routing table to use for routes inserted by babeld, and is equivalent to the command-line option -t.

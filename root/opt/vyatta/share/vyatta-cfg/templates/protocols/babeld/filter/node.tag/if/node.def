@@ -1,0 +1,2 @@
+type: txt
+help: For an input filter, this specifies the interface over which the route is learned. For an output filter, this specifies the interface over which this route is advertised. For a redistribute statement, this specifies the interface over which the route forwards packets.

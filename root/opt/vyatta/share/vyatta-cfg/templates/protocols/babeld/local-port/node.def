@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the TCP port on which babeld will listen for connections from a configuration client in read-only mode, and is equivalent to the command-line option -g.

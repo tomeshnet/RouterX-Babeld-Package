@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the priority value used when installing routes into the kernel, and is equivalent to the command-line option -k.

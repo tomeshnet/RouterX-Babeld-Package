@@ -1,0 +1,2 @@
+type: txt
+help: The default is auto. auto|wired|wireless|tunnel

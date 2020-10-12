@@ -1,0 +1,2 @@
+type: bool
+help: Reflect route metrics as kernel priorities. The priority effectively used is kernel-priority + metric.

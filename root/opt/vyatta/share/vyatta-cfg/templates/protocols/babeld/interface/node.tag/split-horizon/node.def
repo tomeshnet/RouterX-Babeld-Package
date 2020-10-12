@@ -1,0 +1,2 @@
+type: txt
+help: This specifies whether to perform split-horizon processing on this interface. The default is to perform split-horizon processing on on wired interfaces. true|false|auto

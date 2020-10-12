@@ -1,0 +1,2 @@
+type: bool
+help: Send multiple copies of TLVs other than Hellos to all neighbours rather than sending a single multicast packet. The default is false.

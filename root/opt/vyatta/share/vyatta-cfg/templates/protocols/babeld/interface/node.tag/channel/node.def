@@ -1,0 +1,2 @@
+type: bool
+help: Sets the channel for this interface. The value channel can be either an integer, or one of the strings interfering or noninterfering

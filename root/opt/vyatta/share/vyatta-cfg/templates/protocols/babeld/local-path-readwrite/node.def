@@ -1,0 +1,2 @@
+type: txt
+help: This specifies the filesystem path to a socket on which babeld will listen for connections from a configuration client in read-write mode, and is equivalent to the command-line option -G. Any user with write access to that socket will be able to change babeld's configuration.
