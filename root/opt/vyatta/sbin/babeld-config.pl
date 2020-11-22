@@ -111,5 +111,4 @@ print $fh $config_out;
 close $fh;
 
 # Restart babeld
-system("/etc/init.d/babeld stop >&/dev/null");
-system("/etc/init.d/babeld start >&/dev/null");
+system("/bin/systemctl restart babeld >&/dev/null");

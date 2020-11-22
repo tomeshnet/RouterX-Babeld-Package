@@ -1,0 +1,16 @@
+[Unit]
+Description=Babeld Service
+Wants=vyatta-router.service
+After=network.target auditd.service vyatta-router.service
+
+[Service]
+Type=simple
+ExecStartPre=-/bin/rm /var/run/babeld.pid
+ExecStart=/usr/bin/babeld -G 999 -c /etc/babeld.conf -L /var/log/babeld.log
+Restart=on-failure
+RestartSec=10s
+ExecStop=/bin/kill -s QUIT $MAINPID
+
+[Install]
+WantedBy=multi-user.target
+
