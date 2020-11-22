@@ -1,7 +1,7 @@
 [Unit]
 Description=Babeld Service
 Wants=vyatta-router.service
-After=network.target auditd.service vyatta-router.service
+After=network.target
 
 [Service]
 Type=simple
