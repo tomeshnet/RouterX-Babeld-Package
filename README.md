@@ -2,6 +2,7 @@ Project to create a working DEB package for BABELD to use on EdgeMax RouterX  (f
 
 Tested on
 - Edgerotuer X 
+- Edgerotuer X SFP
 
 # Usage
 
