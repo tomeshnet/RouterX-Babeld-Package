@@ -124,7 +124,7 @@ Compiled binary exists in /root/usr/bin/babeld
 
 ```
 sudo apt-get install gcc-mipsel-linux-gnu
-git clone git://github.com/jech/babeld.git
+git clone --recursive https://github.com/jech/babeld.git
 cd babeld
 make CC='mipsel-linux-gnu-gcc -static'
 ```
