@@ -17,7 +17,9 @@ Tested on
 - Install post-install script (source: https://github.com/britannic/install-edgeos-packages)
 
 ```
-cat <<"EOF"> /config/data/install-packages/install-pkgs
+cd /tmp
+sudo mkdir -p  /config/scripts/pre-config.d
+cat <<"EOF"> install-pkgs
 #!/usr/bin/env bash
 # UniFi Security Gateways and EdgeOS Package Updater
 # This script checks /config/data/install-packages/ for downloaded
@@ -39,8 +41,6 @@ done
 
 cd -
 EOF
-
-sudo mkdir -p  /config/scripts/pre-config.d
 sudo install -o root -g root -m 0755 install-pkgs /config/scripts/pre-config.d/install-pkgs
 rm -rf install-pkgs
 sudo mkdir  -p /config/data/install-packages
