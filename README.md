@@ -1,4 +1,4 @@
-Project to create a working DEB package for BABELD to use on EdgeMax RouterX  (firmware v 1.x only)
+Project to create a working DEB package for BABELD to use on EdgeMax RouterX  (firmware v 2.x only)
 
 Tested on
 - Edgerotuer X 
