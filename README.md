@@ -17,7 +17,7 @@ Tested on
 - Install post-install script (source: https://github.com/britannic/install-edgeos-packages)
 
 ```
-cat <<"EOF"> install-pkgs
+cat <<"EOF"> /config/data/install-packages/install-pkgs
 #!/usr/bin/env bash
 # UniFi Security Gateways and EdgeOS Package Updater
 # This script checks /config/data/install-packages/ for downloaded
